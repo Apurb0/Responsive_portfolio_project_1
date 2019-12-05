@@ -1,0 +1,758 @@
+/* Author
+
+Name:Apurbo Sarkar;
+Mail:apurbouiu5@gmail.com;
+
+*/
+
+/*
+
+****Index*****
+
+1. Header
+2. Fusce at
+3. Facilisis
+4. Ante donec
+5. Blandit rhoncus
+6. Placerat
+7. Footer
+
+
+*/
+
+/*Global CSS*/
+
+body{
+	font-family: 'Roboto', sans-serif;
+
+}
+
+h1{
+  
+
+}
+
+h2{
+  color: #fff;
+  font-size: 30px;
+}
+
+h3{
+    
+    
+}
+
+h4{
+	/*color: #ffff;*/
+	color: silver;
+	font-size: 1.2em;
+	text-align: center;
+	margin-top: 20px;
+}
+
+h5{
+   padding: 4%;
+   font-size: 22px;
+}
+
+h6{
+	color: #fff;
+	font-size: 18px;
+
+}
+
+p{
+    color: #161616;
+	font-size: 18px;
+}
+
+.btn{
+
+}
+
+.img-center{
+	display: block;
+	margin: 0 auto;
+}
+
+.no-padding{
+	padding: 0px;
+}
+
+.btn-one{
+	background-color: #ED145B;
+	color: #fff;
+	padding: 11px 40px;
+	border-radius: 20px;
+	display: block;
+	margin: 10% auto 2%;
+	border: none;
+}
+
+.btn_3{
+	background-color: #27A6D4;
+	color: #fff;
+	padding: 11px 40px;
+	border-radius: 20px;
+	display: block;
+	margin: 10% auto 2%;
+	border: none;
+}
+
+.btn_4{
+	background-color: #B1D23E;
+	color: #fff;
+	padding: 11px 40px;
+	border-radius: 20px;
+	display: block;
+	margin: 10% auto 2%;
+	border: none;
+}
+/*Theme css*/
+
+/*header section start*/
+
+.home_head{
+
+   color: silver;
+   font-size: 4vw;
+   text-align: center;
+   margin-top: 10%;
+   position: relative;
+   padding: 1.5%;
+
+
+}
+
+.home_head::after{
+   
+   content: '';
+   height: 2px;
+   width: 20%;
+   background: #AF1043;
+   position: absolute;
+   left: 40%;
+   bottom: 0;
+
+}
+
+
+
+
+
+*/
+
+
+header{
+
+}
+
+.nav-head{
+	background-color: transparent!important;
+	padding: 35px 0px;
+
+}
+
+
+
+.nav-item{
+	margin: 0px 5px;
+}
+
+
+.nav-link{
+	color: #fff!important;
+
+}
+
+
+.navbar-toggler{
+	
+    background-color:#ED145B;
+}
+
+
+/*header section End*/
+
+
+/*hero section start*/
+
+.hero{
+	background: url(../img/Mache_Template-Symu_co.png)no-repeat;
+   
+	background-size: cover;
+
+	background-color: #F6F6F6;
+
+ }
+
+
+
+
+/*hero section end*/
+
+
+/*2nd section*/
+
+.mid-area{
+    
+ 
+   background-color:#F6F6F6;
+   width: 100%;
+   display: block;
+   padding: 3%;
+   
+
+
+}
+
+.mid-area-content h2{
+    
+
+	color: black;
+	width: 100%;
+	margin: 10% 1%;
+
+}
+
+
+.mid-area-content span{
+
+	border-bottom: 4px solid #ED145B;
+	display: block;
+	width: 25%;
+	margin: 10px 0px;
+
+}
+
+.mid-area_p{
+	color: #ED145B;
+}
+
+
+i.fa.fa-play-circle-o{
+	color: #ED145B;
+}
+
+
+.img-backside{
+    
+    width: 300%;
+    position: relative;
+    
+    top: 30%; 
+    left:0%;
+    
+	
+}
+
+/*3rd section*/
+
+.service-area{
+   
+ 
+   /*display: fixed;*/
+   background-color:#fff;
+   padding: 5%;
+
+}
+
+.service-area_p{
+	color: #ED145B;
+
+}
+
+.service-area-content h2{
+
+	color: #fff;
+	width: 100%;
+	padding: 16px 7px;
+
+}
+
+.service-area-content p{
+   color: #fff;
+}
+
+.img-right{
+	  display: block;
+	 
+	  margin: 25% 0%;
+
+}
+
+.service-area-content span{
+
+	border-bottom: 4px solid #fff;
+	display: block;
+	width: 5%;
+	margin: 10px 0px;
+
+}
+
+.single-portfolio{
+	 
+	width: 100%;
+
+	overflow: hidden;
+	padding: 5%;
+
+
+}
+
+/*feedback section start*/
+.feedback{
+	background: url(../img/Mache_Template-Symu_co_7.png)no-repeat center;
+	background-size: cover;
+
+}
+.feedback_p{
+	color: #fff;
+}
+
+i.fa.fa-quote-left{
+	color: #ED145B;
+	font-size: 2em;
+	padding: 2%;
+}
+
+i.fa.fa-quote-right{
+	color: #ED145B;
+	font-size: 2em;
+	padding: 2%;
+}
+
+/*feedback section end*/
+
+/*price section start*/
+
+.prices{
+    background-color: #F4F4F4;
+}
+
+
+.card{
+	background-color: #5A5A5A;
+	margin-top: 30%;
+	padding: 15%;
+
+
+	
+}
+
+.card_diff{
+	background-color: #ED145B;
+	margin-top: 30%;
+	padding: 15%;
+
+
+}
+
+.doller{
+	font-size:20px;
+	color: #fff;
+}
+
+.card-body{
+	background-color: #fff;
+
+}
+
+
+
+
+.card_button_1{
+	background-color:#F4F4F4;
+	color: #282923;
+	padding: 11px 40px;
+	border-radius: 20px;
+	/*display: inline-block;*/
+	margin-top: 35%;
+	margin-left: 6%;
+	border: none;
+	position: absolute;
+	/*position: center;*/
+	
+}
+
+.card_button_2{
+	background-color:#F4F4F4;
+	color: #282923;
+	padding: 11px 40px;
+	border-radius: 20px;
+	/*display: inline-block;*/
+	margin-top: 6%;
+	margin-left: 6%;
+	border: none;
+	position: absolute;
+	/*position: center;*/
+	
+}
+
+
+
+.card_button{
+	background-color: #ED145B;
+	color: #fff;
+	padding: 11px 40px;
+	border-radius: 20px;
+	display: block;
+	margin: 10% auto 2%;
+	border: none;
+
+}
+
+
+
+.doller_details{
+	margin-top: 10%;
+}
+
+
+
+
+/*price section end*/
+
+
+/*item start*/
+
+.item{
+	background-color: #fff;
+    
+}
+
+
+.item_h{
+	color: #ED145B;
+}
+
+
+
+/*item end*/
+
+
+/*join section start*/
+.join{
+	background-color: #ED145B;
+}
+
+.join_p{
+	color: #fff;
+}
+
+.btn-join {
+	background-color: #fff;
+	color: #ED145B;
+	padding: 11px 40px;
+	border-radius: 20px;
+	display: block;
+	margin: 10% auto 2%;
+	border: none;
+}
+
+/*join section end*/
+
+
+/*/*
+/* bg section start*/
+
+
+
+.bg{
+	background-color: #fff;
+}
+
+.title_1{
+	padding-top: 15%;
+ 	padding-bottom: 2%;
+}
+
+.title_2{
+	padding-top: 15%;
+ 	padding-bottom: 2%;
+}
+
+
+.title_3{
+	padding-top: 15%;
+ 	padding-bottom: 2%;
+}
+
+
+
+
+.btn-two{
+	background-color: #fff;
+	color: #612316;
+	padding: 11px 40px;
+	border-radius: 20px;
+	display: block;
+	margin: 10% auto 5%;
+	border: none;
+}
+
+/*Update section start*/
+
+
+.update_details{
+	margin-top: 5%;
+	background-color: #F4F4F4;
+}
+
+.overlay{
+	position: absolute;
+	left:2%;
+	top: 0;
+	height: 64%;
+	width: 96%;
+	background-color:#ED145B;
+	opacity: 0;
+	transition: .5s;
+}
+
+.overlay-table{
+	height:100%;
+	width: 100%;
+	display: table;
+}
+
+.overlay-table-cell{
+	display:table-cell;
+	vertical-align: middle;
+	text-align: center;
+}
+
+.link-icon a{
+   color: #fff;
+   border:1px solid #fff;
+   height:40px;
+   width:40px;
+   display: inline-table;
+   line-height: 40px;
+   margin-right: 6px;
+
+}
+
+.card_1:hover{
+	
+}
+
+.card_1:hover .overlay{
+	opacity: 1;
+}
+
+/*Update section end*/
+
+
+
+/*view section start*/
+
+
+.blog {
+	padding: 100px 0;
+}
+
+.blog p {
+	text-align: left;
+}
+
+.btn_5{
+	background-color: #ffff;
+	margin: 0 auto;
+	display: block;
+	border: 3px solid #d6d6d6;
+	color: #a2a2a2;
+}
+
+
+.btn-four{
+	background-color: #DB4B2D;
+	color: #fff;
+	padding: 11px 40px;
+	border-radius: 20px;
+	display: block;
+	border: none;
+}
+
+.btn-five{
+	background-color: #4D546E;
+	color: #fff;
+	padding: 11px 40px;
+	border-radius: 20px;
+	display: block;
+	border: none;
+}
+
+.head{
+   margin-top: 8%;
+}
+
+.tell{
+	margin-top: 10%;
+}
+
+.tell_img{
+	margin-top: 4%;
+}
+
+.blog {
+	padding: 100px 0;
+}
+
+.blog p {
+	text-align: left;
+}
+
+.btn-blog {
+	background-color: #ffff;
+	margin: 0 auto;
+	display: block;
+	border: 3px solid #d6d6d6;
+	color: #a2a2a2;
+}
+
+
+
+/*view section end*/
+
+
+
+/*placerat_info section start*/
+.placerat_info{
+	background-color: #fff;
+	
+}
+
+
+.btn-cstm{
+	background:#18A9D8;
+	 position: absolute;
+	padding: 6px 46px;
+	margin-top:59%;
+	margin-left:45%; 
+	border: 1px solid #fff;
+	color: #fff;
+	text-transform: uppercase;
+
+}
+
+.card-text{
+   
+
+	border-bottom: 4px solid silver; 
+}
+
+
+/*placerat_info section end*/
+
+
+/*Template section start*/
+.template{
+
+   background: url(../img/Mache_Template-Symu_co_7.png)no-repeat center;
+   background-size: cover;
+
+}
+
+/*Template section end*/
+
+/*footer section start*/
+.footer{
+	background-color: #282923;
+    padding: 5%;
+}
+
+.footer_p{
+	color: #fff;
+	margin-left: 30%;
+}
+/*footer section end*/
+
+
+
+/*Starting Media quary card button for mobile device*/
+
+
+@media only screen and (max-width: 768px) {
+
+
+
+.feedback_p{
+	color: #fff;
+	font-size: 17px;
+}
+
+
+
+
+
+.card_button_1{
+	background-color:#F4F4F4;
+	color: #282923;
+	padding: 11px 40px;
+	border-radius: 20px;
+	margin-top: 26%;
+	margin-left: 19%;
+	border: none;
+	position: absolute;
+
+
+}
+
+.card_button_2{
+	background-color:#F4F4F4;
+	color: #282923;
+	padding: 11px 40px;
+	border-radius: 20px;
+	/*display: inline-block;*/
+	margin-top: 10%;
+	margin-left: 19%;
+	border: none;
+	position: absolute;
+	/*position: center;*/
+	
+}
+
+.overlay{
+	position: absolute;
+	left:2%;
+	top: 0;
+	height: 76%;
+	width: 96%;
+	background-color:#ED145B;
+	opacity: 0;
+	transition: .5s;
+}
+
+	
+
+
+}
+
+/*Ending Media quary card button for mobile device*/
+
+
+ /*Mobile Device*/
+@media (min-width: 0px) and (max-width: 500px){
+
+}
+
+/*Small Device*/
+
+@media (min-width: 500.01px) and (max-width: 768px){
+
+}
+
+/*Medium Device*/
+
+@media (min-width: 768.01px) and (max-width: 1140px){
+
+}
+
+/*Large Device*/
+
+@media (min-width: 1200.01px){
+
+}
+
+
